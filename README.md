@@ -16,10 +16,14 @@
 
 ## Команды
 1. Запуск всех тестов:
+   ```bash
    python3 -m pytest tests --alluredir=allure-results
 2. Запуск только UI-тестов:
+   ```bash
    python3 -m pytest tests/test_ui.py --alluredir=allure-results
 3. Запуск только API-тестов:
+   ```bash
    python3 -m pytest tests/test_api.py --alluredir=allure-results
 4. Просмотр отчета:
+   ```bash
    allure serve allure-results
